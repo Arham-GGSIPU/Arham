@@ -1,11 +1,11 @@
 import React from "react";
-import './Footer.css';
+import './Footer.css'; // Optional: Add specific styles for Footer if needed
 import './App.css';
 function Footer() {
   return (
     <footer className="font-[Poiret_One]">
       {/* Title Section */}
-      <div className="bg-black py-8 text-center">
+      <div className="bg-black py-55 text-center">
         <h1 className="text-[6rem] sm:text-[7rem] md:text-[8rem] lg:text-[9rem] xl:text-[10rem] font-extrabold tracking-widest text-customdarkyellow inline-block opacity-70">
           {["A", "r", "h", "a", "m"].map((letter, index) => (
             <span
@@ -19,7 +19,7 @@ function Footer() {
       </div>
 
       {/* Central Section */}
-      <div className="bg-gradient-to-b from-gray-800 to-gray-900 py-6 text-center">
+      <div className="bg-gradient-to-b from-black to-black py-2 text-center">
         <div className="flex justify-center mt-4 space-x-6 sm:space-x-4 md:space-x-6">
           <a
             href="https://www.instagram.com/arham_ggsipu/profilecard/?igsh=aTI4Y3N6OW55aTls"
